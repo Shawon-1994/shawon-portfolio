@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shawon | Full Stack .NET Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#050816;
+color:white;
+}
+
+header{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 10%;
+position:fixed;
+width:100%;
+background:rgba(0,0,0,.35);
+backdrop-filter:blur(15px);
+z-index:999;
+}
+
+.logo{
+
+font-size:30px;
+font-weight:bold;
+color:#00E5FF;
+
+}
+
+nav a{
+
+text-decoration:none;
+color:white;
+margin-left:35px;
+transition:.3s;
+
+}
+
+nav a:hover{
+
+color:#00E5FF;
+
+}
+
+.hero{
+
+height:100vh;
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+padding:0 10%;
+
+background:linear-gradient(135deg,#050816,#0F172A);
+
+}
+
+.left{
+
+max-width:600px;
+
+}
+
+.left h3{
+
+font-size:22px;
+
+color:#38BDF8;
+
+}
+
+.left h1{
+
+font-size:70px;
+
+margin:15px 0;
+
+}
+
+.left h2{
+
+font-size:35px;
+
+color:#00E5FF;
+
+margin-bottom:20px;
+
+}
+
+.left p{
+
+line-height:1.8;
+
+color:#cfcfcf;
+
+margin-bottom:35px;
+
+}
+
+.btn{
+
+padding:15px 35px;
+
+background:#00E5FF;
+
+color:black;
+
+border-radius:40px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+margin-right:15px;
+
+transition:.4s;
+
+}
+
+.btn:hover{
+
+transform:translateY(-5px);
+
+}
+
+.image img{
+
+width:380px;
+
+border-radius:50%;
+
+border:8px solid #00E5FF;
+
+box-shadow:0 0 60px #00E5FF;
+
+}
+
+section{
+
+padding:100px 10%;
+
+}
+
+.title{
+
+text-align:center;
+
+font-size:40px;
+
+margin-bottom:60px;
+
+color:#00E5FF;
+
+}
+
+.cards{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+}
+
+.card{
+
+background:#111827;
+
+padding:35px;
+
+border-radius:20px;
+
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 0 25px #00E5FF;
+
+}
+
+.card h3{
+
+margin-bottom:20px;
+
+}
+
+.skills{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+justify-content:center;
+
+}
+
+.skill{
+
+background:#111827;
+
+padding:15px 25px;
+
+border-radius:30px;
+
+}
+
+footer{
+
+padding:30px;
+
+text-align:center;
+
+background:#0F172A;
+
+color:#bbb;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">SHAWON</div>
+
+<nav>
+
+<a href="#">Home</a>
+
+<a href="#">About</a>
+
+<a href="#">Services</a>
+
+<a href="#">Projects</a>
+
+<a href="#">Contact</a>
+
+</nav>
+
+</header>
+
+<div class="hero">
+
+<div class="left">
+
+<h3>Hello I'm</h3>
+
+<h1>SHAWON</h1>
+
+<h2>Full Stack .NET Developer</h2>
+
+<p>
+
+I build scalable enterprise applications using ASP.NET Core, C#, SQL Server, Angular and modern software architecture.
+
+Currently building a Hospital Management ERP and future SaaS platform called InnCore.
+
+</p>
+
+<a href="#" class="btn">Download CV</a>
+
+<a href="#" class="btn">Hire Me</a>
+
+</div>
+
+<div class="image">
+
+<img src="588925030_4182594415341167_1754248274031194987_n.jpg">
+
+</div>
+
+</div>
+
+<section>
+
+<h2 class="title">My Services</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Web Development</h3>
+
+<p>Modern Responsive Websites using ASP.NET Core.</p>
+
+</div>
+
+<div class="card">
+
+<h3>REST API</h3>
+
+<p>Secure Enterprise REST APIs with JWT Authentication.</p>
+
+</div>
+
+<div class="card">
+
+<h3>ERP Development</h3>
+
+<p>Hospital, Inventory and Business ERP Solutions.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill">ASP.NET Core</div>
+
+<div class="skill">C#</div>
+
+<div class="skill">SQL Server</div>
+
+<div class="skill">Angular</div>
+
+<div class="skill">Entity Framework</div>
+
+<div class="skill">SignalR</div>
+
+<div class="skill">MediatR</div>
+
+<div class="skill">CQRS</div>
+
+<div class="skill">Azure</div>
+
+<div class="skill">Docker</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">Featured Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Hospital ERP</h3>
+
+<p>Complete Hospital Management System.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Authentication API</h3>
+
+<p>JWT, Refresh Token, Role Management.</p>
+
+</div>
+
+<div class="card">
+
+<h3>InnCore SaaS</h3>
+
+<p>Hospitality ERP Platform (Coming Soon).</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2023 Shawon | Full Stack .NET Developer
+
+</footer>
+
+</body>
+
+</html>
